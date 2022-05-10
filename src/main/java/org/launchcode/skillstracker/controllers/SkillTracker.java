@@ -40,11 +40,17 @@ public class SkillTracker {
         return "<html>" +
                 "<body>" +
                 "<h1>"+name+"</h1>" +
-                "<ol>" +
-                "<li>"+firstLanguage+"</li>" +
-                "<li>"+secondLanguage+"</li>" +
-                "<li>"+thirdLanguage+"</li>" +
-                "</ol>" +
+                "<h1>language</h1>" +
+                "<table>" +
+                " <tr><th>First</th><th>Second</th><th>Third</th></tr>" +
+                "<tr><td>"+firstLanguage+"</td><td>"
+                +secondLanguage+"</td><td>"
+                +thirdLanguage+"</td></tr>" +
+
+//                "<li>"+firstLanguage+"</li>" +
+//                "<li>"+secondLanguage+"</li>" +
+//                "<li>"+thirdLanguage+"</li>" +
+                "</table>" +
                 "</body>" +
                 "</html>";
 
